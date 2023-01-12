@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Aeonic";
+    src: url(../media/Fonts/Aeonik-Regular.otf);
+  }
+  @font-face {
+    font-family: "Aeonic-Bold";
+    src: url(../media/Fonts/Aeonik-Bold.otf);
+  }
+  @font-face {
+    font-family: "Aeonic-Light";
+    src: url(../media/Fonts/Aeonik-Light.otf);
+  }
+  .Aeonic
+  {
+    font-family: "Aeonic";
+  }
+  .Aeonic-Bold
+  {
+    font-family: "Aeonic-Bold";
+  }
+  .Aeonic-Light
+  {
+    font-family: "Aeonic-Light";
+  }
+  .gall-tools-bar-container-container
+  {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #b1b1b100;
+  }
+  .gall-tools-bar-container
+  {
+    /* position: absolute; */
+    bottom: 0px;
+    /* left: 30vw; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    height: 80px;
+    background-color: #45ab34;
+    border-radius: 20px;
+    padding: 0px 40px;
+    z-index: 999;
+  }
+  .gall-tools-bar-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+
+  }
+  .gall-tools-bar-tab img{
+    
+    width: 40px;
+    height: 40px;
+
+
+  }
+  .gall-tools-bar-tab-active{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 0px 10px;
+    /* background-color: rgba(255, 255, 255, 0.171); */
+    border: #1b790b80 solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .gall-tools-bar-tab :hover
+  {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 5px;
+    border: #45ab34 solid 2px;
+  }
+  .gall-tools-bar-sep
+  {
+    display: inline-block;
+    border-left: 3px solid white;
+    margin: 0px 20px;
+    height: 60%;
+  }

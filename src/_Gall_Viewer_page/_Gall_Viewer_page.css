@@ -1,0 +1,274 @@
+.cccont
+{
+    background-image: url(https://media-exp3.licdn.com/dms/image/C4E1BAQFKgsmA9Zs8Sw/company-background_10000/0/1555243715392?e=2159024400&v=beta&t=jp2blgQLpFScE5VElx8ev5C_7WypqxUtyTzuw4G6imc);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    
+}
+.ccont{
+    /* background-color: rgb(0, 201, 236); */
+    
+    /* background-image: url(https://media-exp3.licdn.com/dms/image/C4E1BAQFKgsmA9Zs8Sw/company-background_10000/0/1555243715392?e=2159024400&v=beta&t=jp2blgQLpFScE5VElx8ev5C_7WypqxUtyTzuw4G6imc);
+    filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    display: flex;
+    
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+    
+    }
+    .myBody
+    {
+        background-color:rgb(238, 238, 238);
+        width: 35%;
+        border-radius: 10px;
+        box-shadow:0px 0px 20px grey;  
+
+        padding: 30px 0px;
+
+    }
+    .alert-danger
+    {
+        border-left: 4px solid rgb(161, 6, 6);
+        padding-left: 5px;
+    }
+.centerText{text-align: center;}
+.loginBtnCont{display: flex; justify-content: center;}
+.loginBtn{width: 20%;}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+#mydivvv {
+
+  /* position: absolute; */
+
+  position: -webkit-sticky;
+  position:    -moz-sticky;
+  position:     -ms-sticky;
+  position:      -o-sticky;
+  position:         absolute;
+  /* top: 100px; */
+  z-index: 999;
+}
+#mydivvvv {
+
+  /* position: absolute; */
+
+  position: -webkit-sticky;
+  position:    -moz-sticky;
+  position:     -ms-sticky;
+  position:      -o-sticky;
+  position:         absolute;
+  /* top: 100px; */
+  z-index: 999;
+}
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+.aaasssddd
+{
+  display: inline-block;
+  background-color: #ffffff00;
+  width: 100%;
+  height: 92.7vh;
+}
+
+
+
+.ViewerContainer
+{
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+.ViewerLoadingContainer-front
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.786);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 99999999999999999;
+}
+.ViewerLoadingContainer-front img
+{
+  width: 30%;
+
+}
+.ViewerLoadingContainer-back
+{
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+.displayNone
+{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: width 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border-bottom-right-radius: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+
+
+
+.gall-workorder-creation-modal-content
+{
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+.gall-workorder-creation-modal-body
+{
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+  .gall-workorder-creation-title
+  {
+    font-family: 'Aeonic-Bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45ab34;
+    color: #2b4c9a;
+  }
+  .gall-workorder-creation-cell-A
+  {
+    color: white;
+    font-family: 'Aeonic';
+    background: rgba(255, 255, 255, 0.158);
+    padding: 5px 10px;
+
+  }
+  .gall-workorder-creation-cell-B{
+    color: white;
+    font-family: 'Aeonic';
+    background: rgba(255, 255, 255, 0.479);
+    padding: 5px 10px;
+  }
+  #myModal
+  {
+    background-color: #000000de;
+  }
+  .gall-workorder-creation-cell-submit-button-container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .gall-workorder-creation-element
+  {
+    text-decoration: underline;
+  }
+  .gall-workorder-creation-orderid
+  {
+    text-decoration: underline;
+    
+  }
+
+
+
+  #ssddaa
+  {
+    display: none;
+  }

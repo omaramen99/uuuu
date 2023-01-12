@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Aeonic";
+    src: url(../media/Fonts/Aeonik-Regular.otf);
+  }
+  @font-face {
+    font-family: "Aeonic-Bold";
+    src: url(../media/Fonts/Aeonik-Bold.otf);
+  }
+  @font-face {
+    font-family: "Aeonic-Light";
+    src: url(../media/Fonts/Aeonik-Light.otf);
+  }
+  .Aeonic
+  {
+    font-family: "Aeonic";
+  }
+  .Aeonic-Bold
+  {
+    font-family: "Aeonic-Bold";
+  }
+  .Aeonic-Light
+  {
+    font-family: "Aeonic-Light";
+  }
+  .mainGallNav
+  {
+    background-color: #2b4c9a !important;
+    z-index: 99999999;
+    height: 7.3vh;
+  }
+  .gall-navbar-brand{
+    font-size: 30px;
+    margin-left: 140px;
+  }
+  .gal-nav-tabs-container
+  {
+    display: flex;
+    background-color: rgba(0, 255, 170, 0);
+    margin-right: 170px;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .gal-nav-tabs
+  {
+    display: inline-block;
+    width: fit-content;
+    font-size: 17px;
+    margin: 0px 10px;
+    color: white;
+  }
+  .gal-nav-tabs:hover
+  {
+    color: #d3f7cd;
+    cursor: pointer;
+  }
+  .gal-nav-tabs-Active
+  {
+    display: inline-block;
+    width: fit-content;
+    font-size: 17px;
+    margin: 0px 10px;
+    color: #45ab34;
+  }
+  .gall-navbar-sep
+  {
+    display: inline-block;
+    border-left: solid rgb(255, 255, 255) 2px;
+    height: 28px;
+    margin: 0px 60px;
+  }
+
+
+
+  #textBox{ z-index:10000000000000000; }

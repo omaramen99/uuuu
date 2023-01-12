@@ -1,0 +1,273 @@
+.gal-issues-page-tableHeader
+{
+  border-bottom: 2px solid #2b4c9a;
+}
+.gal-issues-page-container
+{
+  border: 3px solid #2b4c9a;
+  margin: 50px 100px;
+  /* height: calc(100vh - 200px); */
+  height: 80vh;
+  padding: 10px 50px;
+
+}
+
+.gal-issues-page-issueTitle{
+  font-family: 'Aeonic';
+  font-size: 35px;
+  padding: 0px;
+}
+.gal-issues-page-issueType{
+  font-family: 'Aeonic';
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  padding: 0px;
+  font-size: 25px;
+}
+.gal-issues-page-assignTo{
+  font-family: 'Aeonic';
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  font-size: 25px;
+}
+
+
+
+
+.gal-issues-page-issueTitle-cell{
+  font-family: 'Aeonic';
+  font-size: 20px;
+  padding: 0px;
+
+  max-width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.gal-issues-page-issueType-cell{
+  font-family: 'Aeonic';
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  padding: 0px;
+  font-size: 20px;
+}
+.gal-issues-page-assignTo-cell{
+  font-family: 'Aeonic';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  font-size: 15px;
+
+  max-width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.gal-issues-page-issueType-cell-capsule
+{
+  color: white;
+  border-radius: 15px;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 145px;
+}
+.gal-issues-page-tableRow{
+  margin: 10px 0px ;
+  border-bottom: 1px solid #48916c;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.gal-issues-page-tableRow:hover{
+
+  background-color: #f1f1f1;
+}
+.gal-issues-page-tableRow:active{
+
+  background-color: #c9c9c9;
+}
+.gal-issues-page-issueType-cell-capsule-r{background-color: #d0471f;}
+.gal-issues-page-issueType-cell-capsule-r::after {content: "Danger";}
+.gal-issues-page-issueType-cell-capsule-y{background-color: #dfbf1a;}
+.gal-issues-page-issueType-cell-capsule-y::after {content: "Warning";}
+.gal-issues-page-issueType-cell-capsule-b{background-color: #1c7ec1;}
+.gal-issues-page-issueType-cell-capsule-b::after {content: "Normal";}
+.gal-issues-page-issueType-cell-capsule-g{background-color: #209a49;}
+.gal-issues-page-issueType-cell-capsule-g::after {content: "Completed";}
+
+.issues-Container
+{
+  height: calc(100% - 50px);
+   overflow-y: scroll;
+}
+.issues-Container::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+.issues-Container::-webkit-scrollbar-track {
+        /* color of the tracking area */
+}
+
+.issues-Container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 1, 0.633);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+   /* creates padding around scroll thumb */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.gal-issue-detail-modal-container
+{
+  border: solid 2px #2b4c9a;
+  border-radius: 3px;
+  padding: 15px;
+}
+.gal-issue-detail-modal-sep
+{
+  border-bottom: solid 1px #2b4c9a;
+
+   margin: 5px 0px; 
+}
+.gal-issue-field-title{
+  font-family: 'Aeonic';
+  font-size: 20px;
+
+}
+.gal-issue-field-value{
+  font-family: 'Aeonic';
+  background-color: #f2f2f2;
+  border-radius: 5px;            
+}
+.gal-issue-detail-modal-buttons-container
+{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.gal-issue-detail-modal-buttons-container button
+{
+  display: inline-block;
+  width: 175px;
+  height: 40px;
+  margin: 10px 30px;
+  overflow: hidden;
+}
+.OpenMessagesBtn
+{
+  font-size: 35px;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+ 
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OpenMessagesBtn:hover
+{
+color: #41cf70;
+}
+.OpenMessagesBtn:active
+{
+  color: #209a49;
+}
+.hiddenButton{display: none;}
+.sendMessageBtn
+{
+  font-size: 22px;
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.sendMessageBtn:hover
+{
+color: #209a49;
+}
+.sendMessageBtn:active
+{
+color: #45634f;
+}
+.sendMessageContainer
+{
+  position: relative;
+}
+.messageElementContainer{
+  background-color: #209a4900;
+  margin-bottom: 20px;
+
+display: flex;
+
+}
+.messageElement
+{
+  width: 70%;
+  background-color: #e1e1e1;
+  border-radius: 10px;
+  font-family: 'Aeonic-Light';
+padding: 10px;
+overflow-x: hidden;
+height: fit-content;
+}
+.oldMessagesContainer
+{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.messageInput
+{
+  border-radius: 19px !important;
+}
+.oldMessagesContainer::-webkit-scrollbar {
+  width: 7px;               /* width of the entire scrollbar */
+}
+
+.oldMessagesContainer::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);        /* color of the tracking area */
+}
+
+.oldMessagesContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(41, 41, 41);    /* color of the scroll thumb */
+  border-radius: 15px;       /* roundness of the scroll thumb */
+  border: 0px solid rgba(255, 166, 0, 0);  /* creates padding around scroll thumb */
+}
+.messageSenderName{font-size: 20px;
+font-weight: 600;
+}
+.messageDate
+{
+  font-size: 15px;
+  color: #656565;
+  margin-bottom: 10px;
+}
+.NotesContainer
+{
+  transition: all 1s;
+  height: 0px;
+  overflow-x: visible;
+  overflow-y: clip;
+}

@@ -1,0 +1,536 @@
+@font-face {
+  font-family: "Aeonic";
+  src: url(../media/Fonts/Aeonik-Regular.otf);
+}
+@font-face {
+  font-family: "Aeonic-Bold";
+  src: url(../media/Fonts/Aeonik-Bold.otf);
+}
+@font-face {
+  font-family: "Aeonic-Light";
+  src: url(../media/Fonts/Aeonik-Light.otf);
+}
+.Aeonic
+{
+  font-family: "Aeonic";
+}
+.Aeonic-Bold
+{
+  font-family: "Aeonic-Bold";
+}
+.Aeonic-Light
+{
+  font-family: "Aeonic-Light";
+}
+.table-dark {
+    --bs-table-color: rgb(255 255 255);
+    --bs-table-bg: #58585800;
+    --bs-table-border-color: #373b3e00;
+    --bs-table-striped-bg: #00000096;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+.gall-table-cell-prj
+{
+  height: 25px !important;
+  padding: 0px 10px !important;
+  padding-left: 10px !important;
+  font-family: 'Aeonic';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+}
+.gall-table-cell-cat
+{
+  height: 25px !important;
+  padding: 0px 10px !important;
+  padding-left: 20px !important;
+  font-family: 'Aeonic';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+}
+.gall-table-cell-fam
+{
+  height: 25px !important;
+  padding: 0px 10px !important;
+  padding-left: 30px !important;
+  font-family: 'Aeonic';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+}
+.gall-table-cell-typ
+{
+  height: 25px !important;
+  padding: 0px 10px !important;
+  padding-left: 40px !important;
+  font-family: 'Aeonic';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+}
+.gall-table-cell-ele
+{
+  height: 25px !important;
+  padding: 0px 10px !important;
+  padding-left: 50px !important;
+  font-family: 'Aeonic-Light';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  background-color: #46ab3400 !important;
+}
+.gall-table-cell-ele:hover
+{
+  background-color: #46ab3444 !important;
+}
+.gall-table-cell-ele:active
+{
+  --bs-table-accent-bg: #45ab34 !important;
+}
+.gall-table-cell-ele-selected{
+
+
+  height: 25px !important;
+  padding: 0px 10px !important;
+  padding-left: 50px !important;
+  font-family: 'Aeonic-Light';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  
+  --bs-table-accent-bg: #45ab34 !important;
+}
+.gall-elements-list-dropdown-arrow
+{
+  margin-right: 5px;  
+  color: #2b4c9a;
+  margin-right: 25px;
+  font-size: 22px;
+}
+.gall-elements-list-cell-text
+{
+  display: inline-block;
+  max-height: 25px;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 1px;
+  min-width: 75%; 
+  white-space: nowrap;
+}
+.gall-elements-list-cell-side-buttons
+{
+  display: inline-block;
+  position:absolute;
+  right: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.gall-elements-list-cell-side-buttons:hover
+{
+  color: #2b4c9a;
+}
+.hidden-element
+{
+  opacity: 0;
+}
+.gall-elements-list-3d-element-smp{
+  margin-right: 20px;
+  font-size: 15px;
+  color: #88e977;
+}
+
+.gall-issues-menu-upperControl-A-drag
+{
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #5a5a5a5c;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  cursor: move;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  /*
+    Introduced in IE 10.
+    See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+  */
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#unity-container
+{
+  width: 100%;
+  height: 100%;
+}
+#unity-canvas
+{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.gall-issues-menu-container
+{
+  position: absolute;
+  top: 100px;
+ right: 60px;
+  display: inline-block;
+  background-color: #00000073;
+  width: 450px;
+  height: 65vh;
+  border: 3px solid #9bcf90;
+  border-radius: 15px;
+  /* border-bottom-right-radius: 0px; */
+  box-sizing: content-box !important;
+}
+
+.gall-issues-menu-title
+{
+  font-family: 'Aeonic';
+  color: #2b4c9a;
+
+
+}
+.gall-issues-menu-upperControl
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* height: 70px; */
+  background-color: #3446ab00;
+  position: relative;
+
+}
+.gall-issues-menu-data-container-Elements
+{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 76px);
+  background-color: #5a5a5a5c;
+  position: relative;
+  overflow-y: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+ 
+}
+
+
+.gall-issues-menu-data-container-Elements::-webkit-scrollbar {
+width: 5px;               /* width of the entire scrollbar */
+}
+
+.gall-issues-menu-data-container-Elements::-webkit-scrollbar-track {
+background: rgba(255, 166, 0, 0);        /* color of the tracking area */
+}
+
+.gall-issues-menu-data-container-Elements::-webkit-scrollbar-thumb {
+background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+border-radius: 20px;       /* roundness of the scroll thumb */
+border: 0px solid rgba(255, 166, 0, 0);  /* creates padding around scroll thumb */
+}
+
+
+
+
+.gall-issues-menu-data-container-Elements::-webkit-scrollbar-button {
+  
+  height: 7px;
+  }
+.gall-issues-menu-data-container-Properties::-webkit-scrollbar-button {
+  
+  height: 5px;
+  }
+
+
+.gall-issues-menu-data-container-Properties::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  .gall-issues-menu-data-container-Properties::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);        /* color of the tracking area */
+  }
+  
+  .gall-issues-menu-data-container-Properties::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 0px solid rgba(255, 166, 0, 0);  /* creates padding around scroll thumb */
+  }
+
+
+.gall-issues-menu-upperControl-A
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: #45ab34;
+padding: 5px 0px 5px 0px;
+width: 100%;
+
+}
+.gall-issues-menu-upperControl-A-search
+{
+font-family: "Aeonic-Light";
+color: white;
+display: inline-block;
+width: 50%;
+border-bottom: solid white 1px;
+
+}
+.gall-issues-menu-upperControl-A-sep
+{
+display: inline-block;
+height: 30px;
+border-left: 2px solid white;
+margin: 0px 20px;
+}
+.gall-issues-menu-upperControl-A-icon
+{
+display: inline-block;
+color: white;
+}
+.gall-issues-menu-upperControl-sep
+{
+display: inline-block;
+width: 100%;
+border-bottom: solid #2b4c9a 2px;
+}
+.gall-issues-menu-upperControl-B
+{
+/* position: absolute;
+bottom: 0px; */
+font-family: "Aeonic";
+}
+.gall-issues-menu-upperControl-B-Button-Active
+{
+background-color: #2b4c9a;
+color: #ffffffe1;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.gall-issues-menu-upperControl-B-Button
+{
+  background-color: #ffffffe1;
+  color: #2b4c9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.gall-issues-menu-upperControl-B-Button-Selected
+{
+background-color: #45ab34;
+color: #2b4c9a;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.gall-issues-menu-upperControl-B-row
+{
+height: 30px;
+}
+
+
+.gall-issues-menu-data-container-Properties
+{
+  /* display: flex;
+  flex-direction: column;
+
+  align-items: center; */
+  width: 0%;
+  height: calc(100% - 100px);
+
+  /* position: relative; */
+  overflow-y: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+
+  position: absolute;
+  
+  top: 90px; /* Stay at the top */
+  left: -3px;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: width 0.5s, left 0.5s;
+
+  background-color: #00000073;
+
+  border: 3px solid #9bcf90;
+  border-right: 0px;
+  /* padding: 15px 0px; */
+}
+
+
+
+
+
+
+
+
+
+.gall-issues-menu-data-container-Properties-Parameter-Group-Card{
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  background-color: #bbbbbbdb;
+  margin-top: 10px;
+  font-family: "Aeonic-Light";
+}
+.gall-issues-menu-data-container-Properties-Parameter-Group-Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 30px;
+  font-family: "Aeonic";
+  
+  border-bottom: 1px black solid;
+ 
+  
+}
+.gall-issues-menu-data-container-Properties-Parameter-Container{
+  height: 30px;
+  border-bottom: 1px black solid;
+}
+.gall-issues-menu-data-container-Properties-Parameter-Name{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-right: solid black 1px;
+  background-color: #68686873;
+  cursor:default;
+}
+.gall-issues-menu-data-container-Properties-Parameter-Value{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #2e2e2e73;
+  cursor:default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gall-workorder-modal-content
+{
+  white-space: nowrap;
+  /* background-color: rgba(255, 255, 255, 0);
+  border-radius: 15px !important;
+  overflow: hidden !important; */
+}
+.gall-workorder-modal-body
+{
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+  .gall-workorder-title
+  {
+    font-family: 'Aeonic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45ab34;
+    color: #2b4c9a;
+  }
+  .gall-workorder-cell-A
+  {
+    color: white;
+    font-family: 'Aeonic';
+    background: rgba(0, 0, 0, 0.473);
+    padding: 5px 10px;
+
+  }
+  .gall-workorder-cell-B{
+    color: white;
+    font-family: 'Aeonic';
+    background: rgba(139, 139, 139, 0.11);
+    padding: 5px 10px;
+  }
+
+  .gall-workorder-cell-submit-button-container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .gall-workorder-element
+  {
+    text-decoration: underline;
+
+  }
+  .gall-workorder-orderid
+  {
+    text-decoration: underline;
+    font-size: 12px;
+    
+  }
+

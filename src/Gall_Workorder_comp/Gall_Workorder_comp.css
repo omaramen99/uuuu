@@ -1,0 +1,87 @@
+.gal-workorder-card-container
+{
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.553);
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+.gal-workorder-card-container:hover
+{
+
+  background-color: rgba(0, 0, 0, 0.378);
+
+
+}
+.gal-workorder-card-container:active
+{
+
+  background-color: rgba(0, 0, 0, 0.783);
+
+
+}
+.gal-workorder-card-container-selected
+{
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgba(58, 119, 66, 0.344);
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+
+}
+.gal-workorder-card-title
+{
+  display: inline-block;
+  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* width: 1px;
+  min-width: 54%; */
+  white-space: nowrap;
+  width: 80%;
+}
+.gal-workorder-card-id
+{
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.511);
+}
+
+.gal-workorder-card-color
+{
+  position: absolute;
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  
+  top: 0px;
+  left: 0px;
+
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.issue-r
+{
+  background-color: rgb(255, 59, 15);
+}
+.issue-y
+{
+  background-color: rgb(245, 237, 11);
+}
+.issue-b
+{
+  background-color: rgb(0, 162, 255);
+}
+.issue-g
+{
+  background-color: rgb(57, 214, 83);
+}
